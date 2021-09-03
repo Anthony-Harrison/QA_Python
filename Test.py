@@ -1,3 +1,3 @@
 i = 2
-x = "Hello world "
+x = "Update code "
 print(x*2)
