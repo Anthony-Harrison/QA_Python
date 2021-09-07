@@ -9,15 +9,16 @@ def getNum(nameList):
         k = str(i)
         nameNum = nameNum + ord(k)
         i = i + 1
+        
     return nameNum
 
-nameOne = split("Anthony")
-nameTwo = split("Harrison")
+#nameOne = split("Anthony")
+#nameTwo = split("Harrison")
+#
+#conOne = getNum(nameOne)
+#conTwo = getNum(nameTwo)
+#
+#compatability = (conOne / conTwo) * 100
+#print(round(compatability))
 
-conOne = getNum(nameOne)
-conTwo = getNum(nameTwo)
-
-compatability = (conOne / conTwo) * 100
-print(compatability)
-print(nameOne)
 
