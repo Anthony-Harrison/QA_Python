@@ -6,7 +6,7 @@ def ckPal(word):
     if word != rev(word):
         return True
     else:
-      return False
+        return False
     
 state = False
 num = int(input("Enter a number. "))
