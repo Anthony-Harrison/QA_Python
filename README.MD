@@ -1,1 +1,1 @@
-This is a readme file.
+This repo is just to get used to version control and to get into the habit of keeping it upto date.
