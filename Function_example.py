@@ -1,6 +1,6 @@
 def score(name, h, a, f):
     grade = ""
-    fScore = round((((h/25) + (a/50) + (f/100)) / 3) * 100)
+    fScore = round(((h + a + f) / 175) * 100)
     if fScore > 85:
         grade = "A"
     elif fScore >= 70:
@@ -11,6 +11,6 @@ def score(name, h, a, f):
         grade = "Fail"
     return name, fScore, grade
 
-a = score("anth", 22,46,97)
-print((f"The student {a[0]} had a final score of {a[1]}%. \
-Achieving a grade of {a[2]}."))
+a = score("Anth", 25, 20, 100)
+print(f"The student {a[0]} had a final score of {a[1]}%. \
+Achieving a grade of {a[2]}.")
