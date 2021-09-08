@@ -4,17 +4,18 @@ class Animal:
         self.age = age
     
     def getName(self):
-        '''Returns the name of the animal'''
+        '''This is what triple quote comments are for'''
         return self.name
 
     def setName(self, name):
-        '''Set name of animal'''
+        '''This is what triple quote comments are for'''
         self.name = name
 
     def getAge(self):
         return self.age
 
     def setAge(self, age):
+        '''This is what triple quote comments are for'''
         self.age = age
 
     def describe(self):
@@ -33,8 +34,5 @@ class Dog(Animal):
         print("Woof")
 
 
-d1 = Dog("Fido", 12)
-c1 = Cat("Cinder", 8)
 
-d1.describe()
-d1.speak()
+
