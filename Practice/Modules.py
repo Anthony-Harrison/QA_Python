@@ -1,6 +1,6 @@
 from math import sqrt
+def blah():
+    number = 12
+    ans = sqrt(number)
 
-number = float(input("Enter a number: "))
-ans = sqrt(number)
-
-print(f"The square root of {number} is {ans}. ")
+    return ans

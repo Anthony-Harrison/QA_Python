@@ -6,9 +6,8 @@ class Budget:
     def getName(self):
         return self.name
 
-    def balance(self):
-        if self.name or self.sName:
-            return self.balance
+    def getBalance(self):
+        return f"{self.name} balance is {self.balance}"
 
     def withdraw(self):
         amount = float(input(f"withdraw: Enter price. "))
@@ -27,8 +26,8 @@ class Budget:
             return print("Error not enough money. ")
         self.balance -= amount
         obj.balance += amount
-        self.transHis.append(f"Transfering {amount} to {obj.name}")
-        print(f"Transfering £{amount} from {self.name} to {obj.name}.")
+        self.transHis.append(f"Transfered £{amount} to {obj.getName()}")
+        print(f"Transfering £{amount} from {self.name} to {obj.getName()}.")
 
     def spend(self):
         amount = float(input(f"Spend: Enter price. "))
@@ -42,14 +41,13 @@ class Budget:
     def transactionList(self):
         i = 0
         while i <= len(self.transHis):
-            print(self.transHis[i])
-            i += 1
+            return self.transHis[i]
 
 food = Budget("Food")
 clothes = Budget("Clothes")
 food.transfer()
-print(food.balance)
-#print(food.transactionList)
+print(food.getBalance())
+print(food.transactionList())
 #print(clothes.balance)
 #print(food.balance)
 #food.spend()
