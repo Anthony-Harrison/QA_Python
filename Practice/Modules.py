@@ -4,3 +4,9 @@ def blah():
     ans = sqrt(number)
 
     return ans
+
+def hmm(n):
+    if n == 6:
+        return 66
+    else:
+        return "Noooo"
