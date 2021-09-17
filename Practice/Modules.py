@@ -1,6 +1,12 @@
 from math import sqrt
+def blah():
+    number = 12
+    ans = sqrt(number)
 
-number = float(input("Enter a number: "))
-ans = sqrt(number)
+    return ans
 
-print(f"The square root of {number} is {ans}. ")
+def hmm(n):
+    if n == 6:
+        return 66
+    else:
+        return "Noooo"
