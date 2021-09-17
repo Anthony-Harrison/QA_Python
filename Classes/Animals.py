@@ -1,30 +1,33 @@
-class Animal:
+from abc import ABC, abstractmethod
+class Animal(ABC):
     def __init__(self, name, age):
         self.name = name
         self.age = age
     
     def getName(self):
-        '''This is what triple quote comments are for'''
         return self.name
 
     def setName(self, name):
-        '''This is what triple quote comments are for'''
         self.name = name
 
     def getAge(self):
         return self.age
 
     def setAge(self, age):
-        '''This is what triple quote comments are for'''
         self.age = age
 
     def describe(self):
         print(f"This is {self.getName()} they are {self.getAge()} years old.")
-
+    '''Abstract methods define methods which must
+     be implemented by sub classes.'''
+    @abstractmethod
     def speak(self):
-        print("What animal am I???")
+        pass
 
 class Cat(Animal):
+    def eat():
+        print("eatign")
+
     def speak(self):
         print("Meow!!")
 

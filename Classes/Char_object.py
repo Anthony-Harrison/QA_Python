@@ -1,9 +1,9 @@
 import Char_find as Ch
 vowels = Ch.CharFind()
-vowels.findLetter("asdjgfhdkasfjgheuwhrgnfbvnfdvbvoieqrhugohefvnjd \
+vowels.findLetter("asdjgfhdkasfjgheuwhrgnfbvnfdvbvoieqrhugohefvnjd\
 fagvhqaerhgqiuoaerhgfkdfnbjbvnbxvkjherajvdac,nmbvzmndcxbvawh")
 
 numbers = Ch.CharFind()
-numbers.findLetter("asdjgfhdkasfjgheuwhrgnfbvnfdvbvoieqrhugohefvnjd \
+numbers.findLetter("asdjgfhdkasfjgheuwhrgnfbvnfdvbvoieqrhugohefvnjd\
 fagvhqaerhgqiuoaerhgfkdfnbjbvnbxvkjherajvdac,nmbvzmndcxbvawh")
 
